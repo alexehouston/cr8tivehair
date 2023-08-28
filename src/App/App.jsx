@@ -25,13 +25,15 @@ export default function App() {
     <div className="App bg-beige">
       <Nav />
 
-      <Routes location={location} key={location.pathname}>
-        <Route path="/" index element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <div className="app-inner">
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" index element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
 
       <Footer />
     </div>

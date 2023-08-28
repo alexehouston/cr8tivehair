@@ -21,6 +21,7 @@
 
 :root {
   --cr8tive-bg: #fefbf1;
+  --cr8tive-sub-bg: #d6ccc2;
   --cr8tive-txt-dark: #111;
   --cr8tive-txt-light: #fff;
   --cr8tive-border: #ddd;
@@ -30,35 +31,74 @@
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: var(--cr8tive-bg);
-    font-family: "Timeless";
-    color: var(--cr8tive-txt-dark);
-    font-size: .9rem;
+  background-color: var(--cr8tive-bg);
+  font-family: "Timeless";
+  color: var(--cr8tive-txt-dark);
+  font-size: 0.9rem;
 }
 
 a {
-    text-decoration: none;
-    color: var(--cr8tive-txt-dark);
+  text-decoration: none;
+  color: var(--cr8tive-txt-dark);
 }
 
 .bg-beige {
-    background-color: var(--cr8tive-bg);
+  background-color: var(--cr8tive-bg);
 }
 
 .head-font {
-    font-family: "Times-SS";
+  font-family: "Times-SS";
 }
 
 .sub-head-font {
-    font-family: "BD Megalona";
+  font-family: "BD Megalona";
 }
 
 .body-font {
-    font-family: "Timeless";
+  font-family: "Timeless";
+}
+
+.text-sm {
+  font-size: 0.9rem;
+}
+
+.text-xs {
+  font-size: .75rem;
+}
+
+.text-xl {
+  font-size: 4rem;
+}
+
+.app-inner {
+  margin-top: 10rem;
+}
+
+.underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--cr8tive-txt-dark);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
