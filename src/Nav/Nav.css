@@ -1,0 +1,15 @@
+.Nav {
+    border-bottom: 1px solid var(--cr8tive-border);
+}
+
+.logo {
+    font-family: "Times-SS";
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 0.75;
+}
+
+.sub-logo {
+    font-size: .8rem;
+    letter-spacing: 3px;
+}

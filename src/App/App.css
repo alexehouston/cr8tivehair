@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Times-SS;
+  src: url("/fonts/times-ss.ttf");
+}
+
+@font-face {
+  font-family: Timeless;
+  src: url("/fonts/Timeless.ttf");
+}
+
+@font-face {
+  font-family: Timeless;
+  font-weight: bold;
+  src: url("/fonts/Timeless-Bold.ttf");
+}
+
+@font-face {
+  font-family: BD Megalona;
+  src: url("/fonts/BDMegalona.otf");
+}
+
+:root {
+  --cr8tive-bg: #fefbf1;
+  --cr8tive-txt-dark: #111;
+  --cr8tive-txt-light: #fff;
+  --cr8tive-border: #ddd;
+  --cr8tive-head-font: "Times-SS";
+  --cr8tive-subhead-font: "BD Megalona";
+  --cr8tive-body-font: "Timeless";
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cr8tive-bg);
+    font-family: "Timeless";
+    color: var(--cr8tive-txt-dark);
+    font-size: .9rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cr8tive-txt-dark);
+}
+
+.bg-beige {
+    background-color: var(--cr8tive-bg);
+}
+
+.head-font {
+    font-family: "Times-SS";
+}
+
+.sub-head-font {
+    font-family: "BD Megalona";
+}
+
+.body-font {
+    font-family: "Timeless";
+}
