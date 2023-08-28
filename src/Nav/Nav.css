@@ -8,6 +8,10 @@
     line-height: 0.75;
 }
 
+.eight {
+    padding-bottom: -1rem;
+}
+
 .sub-logo {
     letter-spacing: 3px;
 }

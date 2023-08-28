@@ -8,7 +8,7 @@ export default function Nav() {
         <Link className="underline-animation" to="/services">Services</Link>
         <Link className="underline-animation" to="/work">Work</Link>
         <div className="logo text-uppercase text-center py-2 underline-animation">
-          <Link to="/">Cr8tive Elements<br /><span className="sub-logo text-xs">Hair Studio</span></Link>
+          <Link to="/">Cr<span className="fw-bold">8</span>tive Elements<br /><span className="sub-logo text-xs">Hair Studio</span></Link>
         </div>
         <Link className="underline-animation" to="/about">About</Link>
         <Link className="underline-animation" to="/contact">Contact</Link>
