@@ -5,22 +5,22 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <div className="Services text-center">
-      <h1 className="sub-head-font w-25 mx-auto text-xl">Contact</h1>
-      <div className="social mt-5 d-flex flex-column justify-content-between">
-        <div className="d-flex justify-content-around w-25 mx-auto">
+      <h1 className="w-25 mx-auto text-xl">Contact</h1>
+      <div className="social mt-5 d-flex flex-column">
+        <div className="d-flex justify-content-center w-25 mx-auto">
           <a
             href="https://instagram.com/cr8tivehair/"
             target="blank_"
-            className="mb-0 ms-2 fs-5 underline-animation d-flex align-items-center"
+            className="bg-dark-beige mb-0 mx-4 bg-beige p-3 rounded-pill hover-zoom d-flex align-items-center"
           >
-            <FontAwesomeIcon icon={faInstagram} className="fs-3 pe-2" />@cr8tivehair
+            <FontAwesomeIcon icon={faInstagram} className="fs-3" />
           </a>
           <a
             href="https://tiktok.com/cr8tivehair/"
             target="blank_"
-            className="mb-0 ms-2 fs-5 underline-animation d-flex align-items-center"
+            className="bg-dark-beige mb-0 mx-4 bg-beige p-3 rounded-pill hover-zoom d-flex align-items-center"
           >
-            <FontAwesomeIcon icon={faTiktok} className="fs-3 pe-2" /> @cr8tivehair
+            <FontAwesomeIcon icon={faTiktok} className="fs-3" />
           </a>
         </div>
         <div className="mt-5">

@@ -15,3 +15,7 @@
 .sub-logo {
     letter-spacing: 3px;
 }
+
+.intake-form-btn {
+  cursor: pointer;
+}

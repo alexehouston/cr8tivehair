@@ -3,7 +3,7 @@ import "./Services.css";
 export default function Services() {
   return (
     <div className="Services text-center">
-      <h1 className="sub-head-font w-25 mx-auto text-xl">Services</h1>
+      <h1 className="w-25 mx-auto text-xl">Services</h1>
       <div className="d-flex justify-content-between w-25 mx-auto mt-5">
         <div className="d-flex flex-column text-start">
           <p>Customized Blonding</p>

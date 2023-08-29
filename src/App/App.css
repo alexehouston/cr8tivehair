@@ -19,6 +19,11 @@
   src: url("/fonts/BDMegalona.otf");
 }
 
+@font-face {
+  font-family: Voyage;
+  src: url("/fonts/Voyage.otf");
+}
+
 :root {
   --cr8tive-bg: #fefbf1;
   --cr8tive-sub-bg: #d6ccc2;
@@ -43,17 +48,29 @@ body {
   font-size: 0.9rem;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Voyage";
+}
+
 a {
   text-decoration: none;
   color: var(--cr8tive-txt-dark);
+}
+
+.app-inner {
+  margin-top: 10rem;
 }
 
 .bg-beige {
   background-color: var(--cr8tive-bg);
 }
 
+.bg-dark-beige {
+  background-color: var(--cr8tive-sub-bg);
+}
+
 .head-font {
-  font-family: "Times-SS";
+  font-family: "Voyage";
 }
 
 .sub-head-font {
@@ -74,10 +91,6 @@ a {
 
 .text-xl {
   font-size: 4rem;
-}
-
-.app-inner {
-  margin-top: 10rem;
 }
 
 .underline-animation {
