@@ -2,7 +2,7 @@ import "./Services.css";
 
 export default function Services() {
   return (
-    <div className="Services text-center">
+    <div className="Services text-center animate__animated animate__fadeInUp animate__slow">
       <h1 className="w-25 mx-auto text-xl">Services</h1>
       <div className="d-flex justify-content-between w-25 mx-auto mt-5">
         <div className="d-flex flex-column text-start">
@@ -33,6 +33,12 @@ export default function Services() {
           <p>$50</p>
           <p>$40</p>
         </div>
+      </div>
+      <div className="blob-3-container animate__animated animate__zoomIn animate__slow animate__delay-2s">
+        <div className="blob-3 blob shadow"></div>
+      </div>
+      <div className="blob-4-container animate__animated animate__zoomIn animate__slow animate__delay-3s">
+        <div className="blob-4 blob shadow"></div>
       </div>
     </div>
   );

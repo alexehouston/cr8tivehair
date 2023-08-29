@@ -30,6 +30,7 @@
   --cr8tive-txt-dark: #111;
   --cr8tive-txt-light: #fff;
   --cr8tive-border: #ddd;
+  --cr8tive-accent: rgb(255, 148, 66);
   --cr8tive-head-font: "Times-SS";
   --cr8tive-subhead-font: "BD Megalona";
   --cr8tive-body-font: "Timeless";
@@ -46,6 +47,7 @@ body {
   font-family: "Timeless";
   color: var(--cr8tive-txt-dark);
   font-size: 0.9rem;
+  overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -106,7 +108,7 @@ a {
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: var(--cr8tive-txt-dark);
+  background-color: var(--cr8tive-accent);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -126,4 +128,17 @@ a {
 
 .hover-zoom:hover {
   transform: scale(1.1);
+}
+
+.txt-orange {
+  color: rgb(248, 121, 21);
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

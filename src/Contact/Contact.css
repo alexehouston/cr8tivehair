@@ -1,3 +1,7 @@
+.Contact h1 {
+    border-bottom: 1px solid var(--cr8tive-border);
+}
+
 .social a.bg-dark-beige {
     width: 3.5rem;
     height: 3.5rem;

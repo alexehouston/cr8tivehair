@@ -4,7 +4,7 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <div className="Services text-center">
+    <div className="Contact text-center animate__animated animate__fadeInUp animate__slow">
       <h1 className="w-25 mx-auto text-xl">Contact</h1>
       <div className="social mt-5 d-flex flex-column">
         <div className="d-flex justify-content-center w-25 mx-auto">

@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <div className="Home">
       <div className="animate__animated animate__fadeIn animate__slower animate__delay-1s">
+      <img className="" src="/assets/sparkle.gif" alt="" />
         <div className="bg-gradient animate__animated animate__zoomInUp animate__slow animate__delay-2s">
           <svg
             version="1.1"
@@ -38,12 +39,16 @@ export default function Home() {
         </div>
         <div className="hero-container">
           <div className="hero text-center">
-            <h1>
+            <h1 className="position-relative">
               True <br />
               beauty <br />
               starts with <br />
               self-care.
             </h1>
+            <div className="sparkle animate__animated animate__zoomIn animate__slow animate__delay-2s position-absolute">
+
+            <img className="sparkle-img" src="/assets/sparkle.png" width="50" alt="" />
+            </div>
             <p className="hero-sub mb-0 text-uppercase opacity-75">
               Cr<span className="fw-bold">8</span>tive Elements
             </p>
@@ -51,10 +56,10 @@ export default function Home() {
         </div>
       </div>
       <div className="blob-1-container animate__animated animate__zoomIn animate__slow animate__delay-2s">
-        <div className="blob-1 blob"></div>
+        <div className="blob-1 blob shadow"></div>
       </div>
       <div className="blob-2-container animate__animated animate__zoomIn animate__slow animate__delay-3s">
-        <div className="blob-2 blob"></div>
+        <div className="blob-2 blob shadow"></div>
       </div>
     </div>
   );

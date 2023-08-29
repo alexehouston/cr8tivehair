@@ -1,21 +1,26 @@
 .Nav {
-    border-bottom: 1px solid var(--cr8tive-border);
+  border-bottom: 1px solid var(--cr8tive-border);
 }
 
 .logo {
-    font-family: "Times-SS";
-    font-size: 1.4rem;
-    line-height: 0.75;
+  letter-spacing: 2px;
 }
 
 .eight {
-    padding-bottom: -1rem;
+  padding-bottom: -1rem;
 }
 
 .sub-logo {
-    letter-spacing: 3px;
+  letter-spacing: 3px;
 }
 
 .intake-form-btn {
+  transition: all 0.5s ease;
   cursor: pointer;
+}
+
+.intake-form-btn:hover {
+  background-color: var(--cr8tive-bg);
+  transform: translateX(15px);
+  box-shadow: 0px 0px 20px var(--cr8tive-accent);
 }
