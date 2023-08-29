@@ -6,3 +6,45 @@
     width: 3.5rem;
     height: 3.5rem;
 }
+
+.blob-13-container,
+.blob-13 {
+  position: absolute;
+  top: 30%;
+  right: 15%;
+}
+
+.blob-14-container,
+.blob-14 {
+  position: absolute;
+  bottom: 2%;
+  left: 10%;
+}
+
+.blob-15-container,
+.blob-15 {
+  position: absolute;
+  top: 10%;
+  left: 24%;
+}
+
+.blob-13 {
+  width: 20rem;
+  height: 20rem;
+  background: url(/assets/20.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.blob-14 {
+  width: 14rem;
+  height: 14rem;
+  background: url(/assets/19.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.blob-15 {
+    width: 9rem;
+    height: 9rem;
+    background: url(/assets/11.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+  }

@@ -41,7 +41,7 @@
 .blob-10-container,
 .blob-10 {
   position: absolute;
-  top: 5%;
+  top: 8%;
   right: 18%;
 }
 
@@ -55,34 +55,34 @@
 .blob-6 {
   width: 20rem;
   height: 20rem;
-  background: url(/assets/10.jpeg) no-repeat 50% 50%;
+  background: url(/assets/17.jpeg) no-repeat 50% 50%;
   background-size: cover;
 }
 
 .blob-7 {
-  width: 13rem;
-  height: 18rem;
-  background: url(/assets/11_cropped.jpeg) no-repeat 50% 50%;
+  width: 14rem;
+  height: 16rem;
+  background: url(/assets/12.jpeg) no-repeat 50% 50%;
   background-size: cover;
 }
 
 .blob-8 {
   width: 25rem;
   height: 25rem;
-  background: url(/assets/1.jpeg) no-repeat 50% 50%;
+  background: url(/assets/21.jpeg) no-repeat 50% 50%;
   background-size: cover;
 }
 
 .blob-9 {
   width: 42rem;
   height: 35rem;
-  background: url(/assets/10.jpeg) no-repeat 50% 50%;
+  background: url(/assets/16.jpeg) no-repeat 50% 50%;
   background-size: cover;
 }
 
 .blob-10 {
   width: 18rem;
   height: 15rem;
-  background: url(/assets/2.jpeg) no-repeat 50% 50%;
+  background: url(/assets/18.jpeg) no-repeat 50% 50%;
   background-size: cover;
 }

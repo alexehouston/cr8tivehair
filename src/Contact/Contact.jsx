@@ -45,6 +45,15 @@ export default function Contact() {
           </a>
         </div>
       </div>
+      <div className="blob-13-container animate__animated animate__zoomIn animate__slow animate__delay-1s">
+        <div className="blob-13 blob shadow"></div>
+      </div>
+      <div className="blob-14-container animate__animated animate__zoomIn animate__slow animate__delay-2s">
+        <div className="blob-14 blob shadow"></div>
+      </div>
+      <div className="blob-15-container animate__animated animate__zoomIn animate__slow animate__delay-3s">
+        <div className="blob-15 blob shadow"></div>
+      </div>
     </div>
   );
 }
