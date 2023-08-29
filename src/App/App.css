@@ -102,3 +102,15 @@ a {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+.hover-float, .hover-zoom {
+  transition: all .5s ease;
+}
+
+.hover-float:hover {
+  transform: translateY(-1rem);
+}
+
+.hover-zoom:hover {
+  transform: scale(1.1);
+}

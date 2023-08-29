@@ -1,5 +1,18 @@
-.intake-form-btn {
+.Home {
+    background-image: url("/assets/2.jpeg");
+    background-size: cover;
+}
+
+.intake-form-btn, .intake-form-btn-inner {
     bottom: 10%;
     right: 3.5%;
+    cursor: pointer;
+}
+
+.intake-form-btn {
+    background: none !important;
+}
+
+.intake-form-btn div {
     background-color: var(--cr8tive-sub-bg);
 }
