@@ -4,7 +4,7 @@ import Home from "../Home/Home";
 import Nav from "../Nav/Nav";
 import Services from "../Services/Services";
 import Work from "../Work/Work";
-import About from "../About/About";
+import Team from "../Team/Team";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -29,7 +29,7 @@ export default function App() {
         <Route path="/" index element={<Home />} />
         <Route path="/services" element={<div className="app-inner"><Services /></div>} />
         <Route path="/work" element={<div className="app-inner"><Work /></div>} />
-        <Route path="/about" element={<div className="app-inner"><About /></div>} />
+        <Route path="/team" element={<div className="app-inner"><Team /></div>} />
         <Route path="/contact" element={<div className="app-inner"><Contact /></div>} />
       </Routes>
 

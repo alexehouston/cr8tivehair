@@ -21,8 +21,8 @@ export default function Nav() {
           <Link className="underline-animation" to="/work">
             Work
           </Link>
-          <Link className="underline-animation" to="/about">
-            About
+          <Link className="underline-animation" to="/team">
+            Team
           </Link>
           <Link className="underline-animation" to="/contact">
             Contact

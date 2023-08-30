@@ -5,28 +5,29 @@
 .blob-3-container,
 .blob-3 {
   position: absolute;
-  top: 40%;
-  right: 15%;
+  top: 38%;
+  right: 12%;
 }
 
 .blob-4-container,
 .blob-4 {
   position: absolute;
-  top: 15%;
+  top: 12%;
   left: 15%;
 }
 
 .blob-3 {
-  width: 18rem;
+  width: 22rem;
   height: 18rem;
   background: url(/assets/9.jpeg) no-repeat 50% 50%;
   background-size: cover;
+  animation: animate-blob 8s ease-in-out infinite;
 }
 
 .blob-4 {
-  width: 12rem;
-  height: 12rem;
+  width: 14rem;
+  height: 16rem;
   background: url(/assets/3.jpeg) no-repeat 50% 50%;
   background-size: cover;
-  animation-delay: 1s;
+  animation: animate-blob-2 10s ease-in-out infinite;
 }

@@ -1,0 +1,43 @@
+.Team h1 {
+    border-bottom: 1px solid var(--cr8tive-border);
+}
+
+.lily {
+  top: -50%;
+  left: 48%;
+}
+
+.elia {
+  bottom: -45%;
+  left: 30%;
+}
+
+.blob-11-container,
+.blob-11 {
+  position: absolute;
+  top: 16%;
+  right: 14%;
+}
+
+.blob-12-container,
+.blob-12 {
+  position: absolute;
+  bottom: 22%;
+  left: 12%;
+}
+
+.blob-11 {
+  width: 18rem;
+  height: 22rem;
+  background: url(/assets/elia.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  animation: animate-blob 7s ease-in-out infinite;
+}
+
+.blob-12 {
+  width: 22rem;
+  height: 18rem;
+  background: url(/assets/elia.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  animation: animate-blob-2 10s ease-in-out infinite;
+}
