@@ -3,9 +3,16 @@ import "./Team.css";
 export default function Team() {
   return (
     <>
-      <div className="Team text-center w-25 mx-auto animate__animated animate__fadeInUp animate__slow">
-        <h1 className="text-xl">Our Team</h1>
-        <p className="mt-5 fs-6">
+      <div className="Team text-center">
+        <div className="position-relative animate__animated animate__fadeInUp animate__slow">
+          <h1 className="text-xl w-25 mx-auto">Our Team</h1>
+          <img
+            className="sparkle-img position-absolute rotating"
+            src="/assets/sparkle-orange.png"
+            alt=""
+          />
+        </div>
+        <p className="w-25 mx-auto mt-5 fs-6 animate__animated animate__fadeInUp animate__slower">
           Welcome to Cr8tive Elements Hair Studio, where we&apos;re dedicated to
           elevating your natural beauty, redefining your style, and providing an
           indulgent self-care experience.
@@ -30,18 +37,18 @@ export default function Team() {
         </p>
       </div>
       <div className="blob-11-container animate__animated animate__zoomIn animate__slow animate__delay-1s">
-        <div className="blob-11 blob shadow position-relative"></div>
-        <div className="elia text-center position-absolute lh-1">
-          <h3 className="sub-head-font fw-bold">Elia</h3>
-          <p>Stylist</p>
-        </div>
+        <div className="blob-11 blob shadow"></div>
+      </div>
+      <div className="elia text-center lh-1 position-absolute animate__animated animate__fadeInUp animate__slow animate__delay-2s">
+        <h3 className="sub-head-font fw-bold">Elia</h3>
+        <span>Stylist</span>
       </div>
       <div className="blob-12-container animate__animated animate__zoomIn animate__slow animate__delay-2s">
-        <div className="blob-12 blob shadow position-relative"></div>
-        <div className="lily text-center position-absolute lh-1">
-          <h3 className="sub-head-font fw-bold">Lily</h3>
-          <p>Owner / Stylist</p>
-        </div>
+        <div className="blob-12 blob shadow"></div>
+      </div>
+      <div className="lily text-center lh-1 position-absolute animate__animated animate__fadeInDown animate__slow animate__delay-3s">
+        <h3 className="sub-head-font fw-bold">Lily</h3>
+        <span>Owner / Stylist</span>
       </div>
     </>
   );

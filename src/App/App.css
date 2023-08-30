@@ -146,6 +146,19 @@ a {
   align-items: center;
 }
 
+.sparkle-img {
+  width: 2rem;
+}
+
+.rotating {
+  animation: rotation 12s linear infinite;
+}
+
+.btn-hover:hover {
+  background-color: var(--cr8tive-bg);
+  box-shadow: 0px 0px 20px var(--cr8tive-accent);
+}
+
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -181,3 +194,9 @@ a {
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   }
 }
+
+/* @media screen and (max-width: 567px) {
+  body {
+    overflow: scroll;
+  }
+} */

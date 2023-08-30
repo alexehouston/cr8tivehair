@@ -2,9 +2,16 @@ import "./Services.css";
 
 export default function Services() {
   return (
-    <div className="Services text-center animate__animated animate__fadeInUp animate__slow">
-      <h1 className="w-25 mx-auto text-xl">Services</h1>
-      <div className="d-flex justify-content-between w-25 mx-auto mt-5">
+    <div className="Services text-center">
+      <div className="position-relative animate__animated animate__fadeInUp animate__slow">
+        <h1 className="w-25 mx-auto text-xl">Services</h1>
+        <img
+          className="sparkle-img position-absolute rotating "
+          src="/assets/sparkle-orange.png"
+          alt=""
+        />
+      </div>
+      <div className="service-menu d-flex justify-content-between mx-auto mt-5 animate__animated animate__fadeInUp animate__slower">
         <div className="d-flex flex-column text-start">
           <p>Customized Blonding</p>
           <p>Transformative Highlights / Balayage</p>
@@ -19,7 +26,7 @@ export default function Services() {
           <p>Extension Removal</p>
           <p>Add-On Blowout</p>
         </div>
-        <div className="d-flex flex-column text-end">
+        <div className="d-flex flex-column text-end fw-bold">
           <p>$220</p>
           <p>Price Varies</p>
           <p>$125</p>

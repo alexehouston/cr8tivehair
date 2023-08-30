@@ -2,6 +2,16 @@
   border-bottom: 1px solid var(--cr8tive-border);
 }
 
+.Services .sparkle-img {
+  top: 18%;
+  width: 1.5rem;
+  margin-left: 7.25rem;
+}
+
+.service-menu {
+  width: 25%;
+}
+
 .blob-3-container,
 .blob-3 {
   position: absolute;
@@ -12,7 +22,7 @@
 .blob-4-container,
 .blob-4 {
   position: absolute;
-  top: 12%;
+  top: 25%;
   left: 15%;
 }
 
@@ -30,4 +40,41 @@
   background: url(/assets/3.jpeg) no-repeat 50% 50%;
   background-size: cover;
   animation: animate-blob-2 10s ease-in-out infinite;
+}
+
+@media screen and (max-width: 567px) {
+  .Services h1 {
+    width: 100% !important;
+  }
+
+  .service-menu {
+    width: 85%;
+    font-size: 0.75rem;
+  }
+
+  .service-menu p {
+    margin-bottom: 0.75rem;
+  }
+
+  .blob-3-container,
+  .blob-3 {
+    top: 45%;
+    right: 24%;
+  }
+
+  .blob-4-container,
+  .blob-4 {
+    top: 74%;
+    left: 30%;
+  }
+
+  .blob-3 {
+    width: 7rem;
+    height: 6rem;
+  }
+
+  .blob-4 {
+    width: 7rem;
+    height: 8rem;
+  }
 }

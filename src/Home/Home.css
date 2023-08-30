@@ -7,11 +7,6 @@
   right: 15%;
 }
 
-.sparkle-img {
-  animation: rotation 12s linear infinite;
-  width: 2rem;
-}
-
 .hero-sub {
   font-family: "Times-SS";
   letter-spacing: 2px;
@@ -55,3 +50,44 @@
   animation: animate-blob 8s ease-in-out infinite;
 }
 
+@media screen and (max-width: 567px) {
+  .hero-container {
+    width: 75%;
+    margin-top: 1.5rem;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+    width: 100%;
+  }
+
+  .Home .sparkle-img {
+    width: 1.25rem;
+  }
+
+  .sparkle {
+    top: 5%;
+    right: 25%;
+  }
+
+  .blob-1-container,
+  .blob-1 {
+    left: -8%;
+  }
+
+  .blob-1 {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .blob-2-container,
+  .blob-2 {
+    top: 68%;
+    right: 0%;
+  }
+
+  .blob-2 {
+    width: 9rem;
+    height: 9rem;
+  }
+}

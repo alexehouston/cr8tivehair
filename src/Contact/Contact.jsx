@@ -4,21 +4,30 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <div className="Contact text-center animate__animated animate__fadeInUp animate__slow">
-      <h1 className="w-25 mx-auto text-xl">Contact</h1>
-      <div className="social mt-5 d-flex flex-column">
-        <div className="d-flex justify-content-center w-25 mx-auto">
+    <div className="Contact text-center">
+      <div className="position-relative animate__animated animate__fadeInUp animate__slow">
+        <h1 className="w-25 mx-auto text-xl">
+          Contact
+        </h1>
+        <img
+          className="sparkle-img position-absolute rotating"
+          src="/assets/sparkle-orange.png"
+          alt=""
+        />
+      </div>
+      <div className="social mt-5 d-flex flex-column animate__animated animate__fadeInUp animate__slower">
+        <div className="social-icons d-flex justify-content-center mx-auto">
           <a
             href="https://instagram.com/cr8tivehair/"
             target="blank_"
-            className="bg-dark-beige mb-0 mx-4 bg-beige rounded-pill hover-zoom d-flex justify-content-center align-items-center"
+            className="bg-dark-beige btn-hover mb-0 mx-4 bg-beige rounded-pill hover-zoom d-flex justify-content-center align-items-center"
           >
             <FontAwesomeIcon icon={faInstagram} className="fs-4" />
           </a>
           <a
             href="https://tiktok.com/cr8tivehair/"
             target="blank_"
-            className="bg-dark-beige mb-0 mx-4 bg-beige rounded-pill hover-zoom d-flex justify-content-center align-items-center"
+            className="bg-dark-beige btn-hover mb-0 mx-4 bg-beige rounded-pill hover-zoom d-flex justify-content-center align-items-center"
           >
             <FontAwesomeIcon icon={faTiktok} className="fs-4" />
           </a>
@@ -42,7 +51,7 @@ export default function Contact() {
           <br />
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.53321755014!2d-111.89224532378421!3d33.53951984462872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b0bf4a1ce9c05%3A0x71b1407cd43cb732!2sPalette%20Collective%20Coffee%20%26%20Co-Retail!5e0!3m2!1sen!2sus!4v1693252115047!5m2!1sen!2sus"
-            className="h-75 m-4 shadow"
+            className="m-4 shadow"
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
