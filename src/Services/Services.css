@@ -45,6 +45,7 @@
 @media screen and (max-width: 567px) {
   .Services h1 {
     width: 100% !important;
+    font-size: 3rem;
   }
 
   .service-menu {
