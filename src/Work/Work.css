@@ -101,8 +101,12 @@
 
 @media screen and (max-width: 567px) {
   .Work h1 {
-    width: 100% !important;
+    width: 50% !important;
     font-size: 3rem;
+  }
+
+  .Work .sparkle-img {
+    margin-left: 3.5rem;
   }
 
   .blob-5-container,
@@ -142,8 +146,8 @@
   }
 
   .blob-5 {
-    width: 14rem;
-    height: 11rem;
+    width: 12rem;
+    height: 9rem;
   }
 
   .blob-6 {
@@ -157,8 +161,8 @@
   }
 
   .blob-8 {
-    width: 10rem;
-    height: 12rem;
+    width: 9rem;
+    height: 10rem;
   }
 
   .blob-9 {
@@ -167,7 +171,7 @@
   }
 
   .blob-10 {
-    width: 7rem;
-    height: 8rem;
+    width: 8rem;
+    height: 7rem;
   }
 }

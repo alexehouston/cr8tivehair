@@ -44,8 +44,12 @@
 
 @media screen and (max-width: 567px) {
   .Services h1 {
-    width: 100% !important;
+    width: 50% !important;
     font-size: 3rem;
+  }
+
+  .Services .sparkle-img {
+    margin-left: 5.5rem;
   }
 
   .service-menu {

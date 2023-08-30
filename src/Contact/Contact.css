@@ -69,8 +69,12 @@ iframe {
 
 @media screen and (max-width: 567px) {
   .Contact h1 {
-    width: 100% !important;
+    width: 50% !important;
     font-size: 3rem;
+  }
+
+  .Contact .sparkle-img {
+    margin-left: 5.25rem;
   }
 
   .social-icons {
@@ -84,14 +88,14 @@ iframe {
 
   .blob-13-container,
   .blob-13 {
-    bottom: -20%;
-    right: 4%;
+    top: 27%;
+    right: 5%;
   }
 
   .blob-14-container,
   .blob-14 {
-    bottom: 14%;
-    left: 4%;
+    top: 16%;
+    left: 5%;
   }
 
   .blob-13 {
@@ -100,8 +104,8 @@ iframe {
   }
 
   .blob-14 {
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
   }
 
   .blob-15,

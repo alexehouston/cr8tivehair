@@ -50,8 +50,12 @@
 
 @media screen and (max-width: 567px) {
   .Team h1 {
-    width: 100% !important;
+    width: 50% !important;
     font-size: 3rem;
+  }
+
+  .Team .sparkle-img {
+    margin-left: 6.5rem;
   }
 
   .Team p {
@@ -71,34 +75,34 @@
   }
 
   .elia {
-    top: 35%;
+    top: 32%;
     left: -45%;
   }
   
   .lily {
-    top: 43%;
+    top: 41%;
     left: 74%;
   }
 
   .blob-11-container,
   .blob-11 {
-    top: 30%;
+    top: 29%;
     right: 16%;
   }
 
   .blob-12-container,
   .blob-12 {
-    top: 27%;
+    top: 25%;
     left: 18%;
   }
 
   .blob-11 {
-    width: 9rem;
-    height: 7rem;
+    width: 8rem;
+    height: 6rem;
   }
 
   .blob-12 {
-    width: 7rem;
-    height: 8rem;
+    width: 6rem;
+    height: 7rem;
   }
 }
