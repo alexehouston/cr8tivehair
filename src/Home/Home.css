@@ -20,16 +20,12 @@
   transform: translate(-50%, -50%);
 }
 
-.blob-1-container,
-.blob-1 {
-  position: absolute;
+.blob-1-container {
   top: 20%;
   left: 6%;
 }
 
-.blob-2-container,
-.blob-2 {
-  position: absolute;
+.blob-2-container {
   top: 55%;
   right: 12%;
 }
@@ -50,10 +46,63 @@
   animation: animate-blob 8s ease-in-out infinite;
 }
 
+@media screen and (max-height: 800px) {
+  .hero-container,
+  .bg-gradient {
+    margin-top: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 4.5rem;
+  }
+
+  .blob-1-container {
+    top: 23%;
+    left: 9%;
+  }
+
+  .blob-1 {
+    width: 18rem;
+    height: 16rem;
+  }
+
+  .blob-2-container {
+    right: 14%;
+  }
+
+  .blob-2 {
+    width: 12rem;
+    height: 12rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .hero-container {
+    margin-top: 1.5rem;
+  }
+
+  .blob-1-container {
+    left: 10%;
+  }
+
+  .blob-1 {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .blob-2-container {
+    top: 71%;
+  }
+
+  .blob-2 {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
 @media screen and (max-width: 567px) {
   .hero-container {
     width: 75%;
-    margin-top: 1.5rem;
   }
 
   .hero h1 {
@@ -70,8 +119,7 @@
     right: 25%;
   }
 
-  .blob-1-container,
-  .blob-1 {
+  .blob-1-container {
     left: -8%;
   }
 
@@ -80,8 +128,7 @@
     height: 9rem;
   }
 
-  .blob-2-container,
-  .blob-2 {
+  .blob-2-container {
     top: 68%;
     right: 0%;
   }

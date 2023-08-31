@@ -200,3 +200,9 @@ a {
     overflow: scroll;
   }
 } */
+
+@media screen and (max-height: 800px) {
+  .app-inner {
+    margin-top: 8rem;
+  }
+}

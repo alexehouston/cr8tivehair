@@ -15,7 +15,7 @@ export default function Contact() {
           alt=""
         />
       </div>
-      <div className="social mt-5 d-flex flex-column animate__animated animate__fadeInUp animate__slower">
+      <div className="social d-flex flex-column animate__animated animate__fadeInUp animate__slower">
         <div className="social-icons d-flex justify-content-center mx-auto">
           <a
             href="https://instagram.com/cr8tivehair/"
@@ -32,7 +32,7 @@ export default function Contact() {
             <FontAwesomeIcon icon={faTiktok} className="fs-4" />
           </a>
         </div>
-        <div className="mt-5">
+        <div>
           <span className="sub-head-font fs-5">
             Cr8tive Elements Hair Studio
           </span>
@@ -58,13 +58,13 @@ export default function Contact() {
           ></iframe>
         </div>
       </div>
-      <div className="blob-13-container animate__animated animate__zoomIn animate__slow animate__delay-1s">
+      <div className="blob-13-container position-absolute animate__animated animate__zoomIn animate__slow animate__delay-1s">
         <div className="blob-13 blob shadow"></div>
       </div>
-      <div className="blob-14-container animate__animated animate__zoomIn animate__slow animate__delay-2s">
+      <div className="blob-14-container position-absolute animate__animated animate__zoomIn animate__slow animate__delay-2s">
         <div className="blob-14 blob shadow"></div>
       </div>
-      <div className="blob-15-container animate__animated animate__zoomIn animate__slow animate__delay-3s">
+      <div className="blob-15-container position-absolute animate__animated animate__zoomIn animate__slow animate__delay-3s">
         <div className="blob-15 blob shadow"></div>
       </div>
     </div>

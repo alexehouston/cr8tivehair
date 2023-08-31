@@ -54,10 +54,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="blob-1-container animate__animated animate__zoomIn animate__slow animate__delay-2s">
+      <div className="blob-1-container position-absolute animate__animated animate__zoomIn animate__slow animate__delay-2s">
         <div className="blob-1 blob shadow"></div>
       </div>
-      <div className="blob-2-container animate__animated animate__zoomIn animate__slow animate__delay-3s">
+      <div className="blob-2-container position-absolute animate__animated animate__zoomIn animate__slow animate__delay-3s">
         <div className="blob-2 blob shadow"></div>
       </div>
     </div>

@@ -36,19 +36,19 @@ export default function Team() {
           journey.
         </p>
       </div>
-      <div className="blob-11-container animate__animated animate__zoomIn animate__slow animate__delay-1s">
+      <div className="blob-11-container position-absolute animate__animated animate__zoomIn animate__slow animate__delay-1s">
         <div className="blob-11 blob shadow"></div>
+        <div className="elia text-center lh-1 position-absolute animate__animated animate__fadeInUp animate__slow animate__delay-2s">
+          <h3 className="sub-head-font fw-bold">Elia</h3>
+          <span>Stylist</span>
+        </div>
       </div>
-      <div className="elia text-center lh-1 position-absolute animate__animated animate__fadeInUp animate__slow animate__delay-2s">
-        <h3 className="sub-head-font fw-bold">Elia</h3>
-        <span>Stylist</span>
-      </div>
-      <div className="blob-12-container animate__animated animate__zoomIn animate__slow animate__delay-2s">
+      <div className="blob-12-container position-absolute animate__animated animate__zoomIn animate__slow animate__delay-2s">
         <div className="blob-12 blob shadow"></div>
-      </div>
-      <div className="lily text-center lh-1 position-absolute animate__animated animate__fadeInDown animate__slow animate__delay-3s">
-        <h3 className="sub-head-font fw-bold">Lily</h3>
-        <span>Owner / Stylist</span>
+        <div className="lily text-center lh-1 position-absolute animate__animated animate__fadeInDown animate__slow animate__delay-3s">
+          <h3 className="sub-head-font fw-bold">Lily</h3>
+          <span>Owner / Stylist</span>
+        </div>
       </div>
     </>
   );

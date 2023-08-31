@@ -99,6 +99,123 @@
   animation: animate-blob 10s ease-in-out infinite;
 }
 
+@media screen and (max-height: 800px) {
+  .Work h1 {
+    font-size: 3rem;
+  }
+
+  .Work .sparkle-img {
+    margin-left: 3.25rem;
+    width: 1.25rem;
+  }
+
+  .blob-5-container {
+    top: 10%;
+    left: 7%;
+  }
+
+  .blob-5 {
+    width: 20rem;
+    height: 14rem;
+  }
+
+  .blob-6 {
+    width: 14rem;
+    height: 18rem;
+  }
+
+  .blob-7-container {
+    left: 20%;
+  }
+
+  .blob-7 {
+    width: 10rem;
+    height: 12rem;
+  }
+
+  .blob-8 {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .blob-9 {
+    width: 25rem;
+    height: 20rem;
+  }
+
+  .blob-10-container {
+    top: 12%;
+    right: 14%;
+  }
+
+  .blob-10 {
+    width: 15rem;
+    height: 12rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .blob-5-container {
+    top: 20%;
+    left: -5%;
+  }
+
+  .blob-6-container {
+    left: -1%;
+    bottom: 4%;
+  }
+
+  .blob-7-container {
+    bottom: 30%;
+    left: 15%;
+  }
+
+  .blob-8-container {
+    top: 38%;
+    left: 60%;
+  }
+
+  .blob-9-container {
+    right: 0;
+    bottom: 4%;
+  }
+
+  .blob-10-container {
+    top: 15%;
+    right: 4%;
+  }
+
+  .blob-5 {
+    width: 20rem;
+    height: 14rem;
+  }
+
+  .blob-6 {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .blob-7 {
+    width: 11rem;
+    height: 13rem;
+  }
+
+  .blob-8 {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .blob-9 {
+    width: 24rem;
+    height: 18rem;
+  }
+
+  .blob-10 {
+    width: 12rem;
+    height: 14rem;
+  }
+}
+
 @media screen and (max-width: 567px) {
   .Work h1 {
     width: 50% !important;
@@ -109,38 +226,32 @@
     margin-left: 3.5rem;
   }
 
-  .blob-5-container,
-  .blob-5 {
+  .blob-5-container {
     top: 32%;
     left: -5%;
   }
 
-  .blob-6-container,
-  .blob-6 {
+  .blob-6-container {
     left: -1%;
     bottom: 4%;
   }
 
-  .blob-7-container,
-  .blob-7 {
+  .blob-7-container {
     bottom: 25%;
     left: 15%;
   }
 
-  .blob-8-container,
-  .blob-8 {
+  .blob-8-container {
     top: 50%;
     left: 70%;
   }
 
-  .blob-9-container,
-  .blob-9 {
+  .blob-9-container {
     right: 0;
     bottom: 4%;
   }
 
-  .blob-10-container,
-  .blob-10 {
+  .blob-10-container {
     top: 32%;
     right: 8%;
   }

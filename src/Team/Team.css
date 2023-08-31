@@ -9,25 +9,21 @@
 }
 
 .elia {
-  bottom: 31%;
-  right: 22%;
+  bottom: -24%;
+  right: 41%;
 }
 
 .lily {
-  top: 30%;
-  left: 20%;
+  top: -26%;
+  left: 38%;
 }
 
-.blob-11-container,
-.blob-11 {
-  position: absolute;
+.blob-11-container {
   top: 20%;
   right: 16%;
 }
 
-.blob-12-container,
-.blob-12 {
-  position: absolute;
+.blob-12-container {
   bottom: 30%;
   left: 13%;
 }
@@ -46,6 +42,94 @@
   background: url(/assets/elia.jpeg) no-repeat 50% 50%;
   background-size: cover;
   animation: animate-blob-2 10s ease-in-out infinite;
+}
+
+@media screen and (max-height: 800px) {
+  .Team h1 {
+    font-size: 3rem;
+  }
+
+  .Team .sparkle-img {
+    margin-left: 6.25rem;
+    width: 1.25rem;
+  }
+
+  .Team p {
+    font-size: .8rem !important;
+    width: 30% !important;
+    margin-top: 2.25rem !important;
+  }
+
+  .lily {
+    top: -38%;
+    left: 32%;
+  }
+
+  .elia {
+    bottom: -30%;
+    right: 35%;
+  }
+
+  .blob-11-container {
+    top: 22%;
+  }
+
+  .blob-11 {
+    width: 12rem;
+    height: 15rem;
+  }
+
+  .blob-12-container {
+    bottom: 27%;
+    left: 12%;
+  }
+
+  .blob-12 {
+    width: 15rem;
+    height: 12rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .Team h1 {
+    width: 40% !important;
+  }
+
+  .Team p {
+    width: 76% !important;
+    margin-top: 22rem !important;
+    font-size: .9rem !important;
+  }
+
+  .lily {
+    top: -20%;
+    left: 25%;
+  }
+
+  .elia {
+    bottom: -34%;
+    left: 38%;
+  }
+
+  .blob-11-container {
+    top: 26%;
+    right: 20%;
+  }
+
+  .blob-11 {
+    width: 10rem;
+    height: 12rem;
+  }
+  
+  .blob-12-container {
+    top: 35%;
+    left: 20%;
+  }
+
+  .blob-12 {
+    width: 12rem;
+    height: 10rem;
+  }
 }
 
 @media screen and (max-width: 567px) {
@@ -84,14 +168,12 @@
     left: 74%;
   }
 
-  .blob-11-container,
-  .blob-11 {
+  .blob-11-container {
     top: 29%;
     right: 16%;
   }
 
-  .blob-12-container,
-  .blob-12 {
+  .blob-12-container {
     top: 25%;
     left: 18%;
   }

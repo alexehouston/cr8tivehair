@@ -41,10 +41,10 @@ export default function Services() {
           <p>$40</p>
         </div>
       </div>
-      <div className="blob-3-container animate__animated animate__zoomIn animate__slow animate__delay-2s">
+      <div className="blob-3-container position-absolute animate__animated animate__zoomIn animate__slow animate__delay-2s">
         <div className="blob-3 blob shadow"></div>
       </div>
-      <div className="blob-4-container animate__animated animate__zoomIn animate__slow animate__delay-3s">
+      <div className="blob-4-container position-absolute animate__animated animate__zoomIn animate__slow animate__delay-3s">
         <div className="blob-4 blob shadow"></div>
       </div>
     </div>

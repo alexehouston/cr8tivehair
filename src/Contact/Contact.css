@@ -15,6 +15,7 @@
 
 .social-icons {
   width: 25%;
+  margin: 2.5rem 0;
 }
 
 iframe {
@@ -22,23 +23,17 @@ iframe {
   width: 20%;
 }
 
-.blob-13-container,
-.blob-13 {
-  position: absolute;
+.blob-13-container {
   top: 30%;
   right: 15%;
 }
 
-.blob-14-container,
-.blob-14 {
-  position: absolute;
+.blob-14-container {
   bottom: 18%;
   left: 13%;
 }
 
-.blob-15-container,
-.blob-15 {
-  position: absolute;
+.blob-15-container {
   top: 18%;
   left: 24%;
 }
@@ -67,6 +62,86 @@ iframe {
   animation: animate-blob 8s ease-in-out infinite;
 }
 
+@media screen and (max-height: 800px) {
+  .Contact h1 {
+    font-size: 3rem;
+  }
+
+  .Contact .sparkle-img {
+    margin-left: 5rem;
+    width: 1.25rem;
+  }
+
+  .social-icons {
+    margin: 1.5rem 0;
+  }
+  
+  iframe {
+    width: 20%;
+    height: 40%;
+  }
+
+  .blob-13-container {
+    top: 40%;
+    right: 16%;
+  }
+
+  .blob-13 {
+    width: 12rem;
+    height: 10rem;
+  }
+
+  .blob-14 {
+    width: 9rem;
+    height: 11rem;
+  }
+
+  .blob-15-container {
+    top: 22%
+  }
+
+  .blob-15 {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .Contact h1 {
+    width: 30% !important;
+  }
+  
+  .blob-13-container {
+    right: 1%;
+    top: 40%;
+  }
+
+  .blob-13 {
+    width: 11rem;
+    height: 11rem;
+  }
+
+  .blob-14-container {
+    bottom: 10%;
+    left: 15%;
+  }
+
+  .blob-14 {
+    width: 10rem;
+    height: 12rem;
+  }
+
+  .blob-15-container {
+    top: 25%;
+    left: 10%;
+  }
+
+  iframe {
+    width: 35%;
+    height: 60%;
+  }
+}
+
 @media screen and (max-width: 567px) {
   .Contact h1 {
     width: 50% !important;
@@ -86,16 +161,18 @@ iframe {
     height: 50% !important;
   }
 
-  .blob-13-container,
-  .blob-13 {
+  .blob-13-container {
     top: 27%;
     right: 5%;
   }
 
-  .blob-14-container,
-  .blob-14 {
+  .blob-14-container {
     top: 16%;
     left: 5%;
+  }
+
+  .blob-15-container {
+    display: none;
   }
 
   .blob-13 {
@@ -106,10 +183,5 @@ iframe {
   .blob-14 {
     width: 5rem;
     height: 5rem;
-  }
-
-  .blob-15,
-  .blob-15-container {
-    display: none;
   }
 }
