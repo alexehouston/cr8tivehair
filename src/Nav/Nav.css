@@ -23,13 +23,20 @@
   transform: translateX(15px);
 }
 
+@media screen and (max-width: 850px) {
+
+}
+
 @media screen and (max-width: 567px) {
   .nav-links {
-    flex-direction: column;
-    text-align: end;
+    margin-top: -2.5rem;
+    font-size: 1rem;
   }
 
   .intake-form-btn-container {
-    display: none !important;
+    /* display: none !important; */
+    position: absolute;
+    bottom: 18%;
+    right: 5%;
   }
 }

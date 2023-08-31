@@ -101,6 +101,7 @@
 
 @media screen and (max-height: 800px) {
   .Work h1 {
+    width: 40% !important;
     font-size: 3rem;
   }
 
