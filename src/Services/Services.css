@@ -114,7 +114,7 @@
 
   .service-menu {
     width: 85%;
-    font-size: 0.75rem;
+    font-size: .8rem;
   }
 
   .service-menu p {
@@ -123,17 +123,17 @@
 
   .blob-3-container {
     top: 45%;
-    right: 24%;
+    left: 45%;
   }
 
   .blob-4-container {
-    top: 74%;
-    left: 30%;
+    top: 75%;
+    left: 32%;
   }
 
   .blob-3 {
-    width: 7rem;
-    height: 6rem;
+    width: 8rem;
+    height: 7rem;
   }
 
   .blob-4 {

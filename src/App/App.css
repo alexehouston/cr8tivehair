@@ -195,11 +195,11 @@ a {
   }
 }
 
-/* @media screen and (max-width: 567px) {
+@media screen and (max-width: 567px) {
   body {
     overflow: scroll;
   }
-} */
+}
 
 @media screen and (max-height: 800px) {
   .app-inner {

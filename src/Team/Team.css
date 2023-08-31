@@ -143,9 +143,8 @@
   }
 
   .Team p {
-    width: 90% !important;
+    width: 85% !important;
     font-size: 0.75rem !important;
-    line-height: 1.2;
     margin-top: 15rem !important;
   }
 
@@ -155,36 +154,36 @@
   }
 
   .elia span, .lily span {
-    font-size: .7rem;
-  }
-
-  .elia {
-    top: 32%;
-    left: -45%;
+    font-size: .8rem;
   }
   
   .lily {
-    top: 41%;
-    left: 74%;
+    top: -18%;
+    left: 20%;
+  }
+
+  .elia {
+    left: 35%;
+    bottom: -38%;
   }
 
   .blob-11-container {
-    top: 29%;
-    right: 16%;
+    top: 27%;
+    right: 18%;
   }
 
   .blob-12-container {
-    top: 25%;
+    top: 35%;
     left: 18%;
   }
 
   .blob-11 {
-    width: 8rem;
-    height: 6rem;
+    width: 6rem;
+    height: 8rem;
   }
 
   .blob-12 {
-    width: 6rem;
-    height: 7rem;
+    width: 8rem;
+    height: 6rem;
   }
 }

@@ -162,13 +162,13 @@ iframe {
   }
 
   .blob-13-container {
-    top: 27%;
+    top: 48%;
     right: 5%;
   }
 
   .blob-14-container {
-    top: 16%;
-    left: 5%;
+    top: 25%;
+    left: 6%;
   }
 
   .blob-15-container {
@@ -176,12 +176,29 @@ iframe {
   }
 
   .blob-13 {
-    width: 5rem;
+    width: 6rem;
     height: 5rem;
   }
 
   .blob-14 {
     width: 5rem;
-    height: 5rem;
+    height: 6rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .blob-13-container {
+    top: 56%;
+    right: 5%;
+  }
+
+  .blob-14-container {
+    top: 28%;
+    left: 6%;
+  }
+
+  .blob-14 {
+    height: 6rem;
+    width: 4rem;
   }
 }

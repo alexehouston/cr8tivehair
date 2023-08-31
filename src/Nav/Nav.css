@@ -34,9 +34,18 @@
   }
 
   .intake-form-btn-container {
-    /* display: none !important; */
     position: absolute;
     bottom: 18%;
     right: 5%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav-links {
+    font-size: .8rem;
+  }
+
+  .intake-form-btn span {
+    font-size: 1rem !important;
   }
 }
