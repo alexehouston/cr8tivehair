@@ -51,7 +51,7 @@
   .service-menu {
     width: 30%;
     line-height: 1.05;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .blob-3-container {
@@ -114,7 +114,7 @@
 
   .service-menu {
     width: 85%;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .service-menu p {
@@ -139,5 +139,34 @@
   .blob-4 {
     width: 7rem;
     height: 8rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Services h1 {
+    font-size: 2.5rem;
+  }
+
+  .service-menu {
+    font-size: 0.75rem;
+    line-height: 1.5;
+  }
+
+  .blob-3-container {
+    top: 50%;
+  }
+
+  .blob-3 {
+    width: 7rem;
+    height: 6rem;
+  }
+
+  .blob-4-container {
+    left: 38%;
+  }
+
+  .blob-4 {
+    width: 5rem;
+    height: 6rem;
   }
 }

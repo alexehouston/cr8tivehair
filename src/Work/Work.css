@@ -287,3 +287,64 @@
     height: 7rem;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .Work h1 {
+    font-size: 2.5rem;
+  }
+
+  .blob-5-container {
+    top: 30%;
+    left: 0%;
+  }
+
+  .blob-7-container {
+    bottom: 28%;
+    left: 15%;
+  }
+
+  .blob-8-container {
+    top: 49%;
+    left: 65%;
+  }
+
+  .blob-9-container {
+    right: 0;
+    bottom: 5%;
+  }
+
+  .blob-10-container {
+    top: 32%;
+    right: 8%;
+  }
+
+  .blob-5 {
+    width: 11rem;
+    height: 8rem;
+  }
+
+  .blob-6 {
+    width: 8rem;
+    height: 9rem;
+  }
+
+  .blob-7 {
+    width: 6rem;
+    height: 8rem;
+  }
+
+  .blob-8 {
+    width: 8rem;
+    height: 9rem;
+  }
+
+  .blob-9 {
+    width: 13rem;
+    height: 9rem;
+  }
+
+  .blob-10 {
+    width: 8rem;
+    height: 6rem;
+  }
+}

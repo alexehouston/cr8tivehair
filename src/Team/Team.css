@@ -55,7 +55,7 @@
   }
 
   .Team p {
-    font-size: .8rem !important;
+    font-size: 0.8rem !important;
     width: 30% !important;
     margin-top: 2.25rem !important;
   }
@@ -98,7 +98,7 @@
   .Team p {
     width: 76% !important;
     margin-top: 22rem !important;
-    font-size: .9rem !important;
+    font-size: 0.9rem !important;
   }
 
   .lily {
@@ -120,7 +120,7 @@
     width: 10rem;
     height: 12rem;
   }
-  
+
   .blob-12-container {
     top: 35%;
     left: 20%;
@@ -148,15 +148,17 @@
     margin-top: 15rem !important;
   }
 
-  .elia h3, .lily h3 {
+  .elia h3,
+  .lily h3 {
     font-size: 1.25rem;
     margin-bottom: 0;
   }
 
-  .elia span, .lily span {
-    font-size: .8rem;
+  .elia span,
+  .lily span {
+    font-size: 0.8rem;
   }
-  
+
   .lily {
     top: -18%;
     left: 20%;
@@ -185,5 +187,63 @@
   .blob-12 {
     width: 8rem;
     height: 6rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Team h1 {
+    font-size: 2.5rem;
+  }
+
+  .Team .sparkle-img {
+    margin-left: 5.25rem;
+  }
+
+  .Team p {
+    width: 82% !important;
+    margin-top: 10rem !important;
+    line-height: 1.05;
+  }
+
+  .elia,
+  .lily {
+    top: 0;
+    width: 50%;
+  }
+
+  .elia {
+    left: 110%;
+    margin: 0 !important;
+  }
+
+  .lily {
+    left: -60%;
+  }
+
+  .blob-11-container {
+    top: 30%;
+    right: 22%;
+  }
+
+  .blob-12-container {
+    top: 30%;
+    left: 22%;
+  }
+
+  .blob-11 {
+    width: 6rem;
+    height: 7rem;
+  }
+
+  .blob-12 {
+    width: 6rem;
+    height: 7rem;
+  }
+}
+
+@media (min-height: 700px) and (max-height: 855px) and (orientation: portrait) {
+  .Team p {
+    margin-top: 12rem !important;
+    line-height: 1.25;
   }
 }

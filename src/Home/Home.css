@@ -138,3 +138,23 @@
     height: 9rem;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .blob-1-container {
+    left: -5%;
+  }
+
+  .blob-1 {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .blob-2 {
+    width: 8rem;
+    height: 8rem;
+  }
+}
