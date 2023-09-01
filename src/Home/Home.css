@@ -76,6 +76,46 @@
   }
 }
 
+@media screen and (max-width: 1450px) {
+  .blob-1-container {
+    left: 8%;
+  }
+
+  .blob-1 {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .blob-2 {
+    width: 13rem;
+    height: 13rem;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .hero h1 {
+    font-size: 4.5rem;
+  }
+
+  .blob-1-container {
+    left: 7%;
+  }
+
+  .blob-1 {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .blob-2-container {
+    top: 60%;
+  }
+
+  .blob-2 {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
 @media screen and (max-width: 850px) {
   .hero-container {
     margin-top: 1.5rem;
