@@ -26,7 +26,7 @@ export default function Work() {
       </div>
       {isSmallScreen ? (
         <>
-        <Carousel fade className="mt-5">
+        <Carousel fade className="mt-5 animate__animated animate__fadeInUp animate__slow animate__delay-1s">
         <Carousel.Item>
           <img
             className="carousel-img"
@@ -76,7 +76,7 @@ export default function Work() {
           />
         </Carousel.Item>
       </Carousel>
-        <Carousel fade className="mt-5">
+        <Carousel fade className="mt-5 animate__animated animate__fadeInUp animate__slow animate__delay-2s">
           <Carousel.Item>
             <img
               className="carousel-img"
@@ -128,7 +128,7 @@ export default function Work() {
         </Carousel>
         </>
       ) : (
-        <Carousel fade className="mt-5">
+        <Carousel fade className="mt-5 animate__animated animate__fadeInUp animate__slow animate__delay-1s">
           <Carousel.Item>
             <img
               className="carousel-img"
