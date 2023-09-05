@@ -7,7 +7,7 @@ export default function Nav() {
   return (
     <nav className="Nav navbar fixed-top bg-beige animate__animated animate__fadeInDown animate__slow">
       <div className="container-fluid col-11">
-        <div className="col-3 col-md-3 col-lg-4 d-flex justify-content-start text-uppercase text-center py-3">
+        <div className="col-3 col-md-3 col-lg-4 d-flex justify-content-start text-uppercase text-center py-1">
           <Link to="/">
             <span className="logo head-font fs-3 lh-1">
               Cr<span className="fw-bold">8</span>tive Elements

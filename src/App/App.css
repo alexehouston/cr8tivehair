@@ -30,7 +30,7 @@
   --cr8tive-txt-dark: #111;
   --cr8tive-txt-light: #fff;
   --cr8tive-border: #ddd;
-  --cr8tive-accent: rgb(255, 148, 66);
+  --cr8tive-accent: #d5Bdaf;
   --cr8tive-head-font: "Times-SS";
   --cr8tive-subhead-font: "BD Megalona";
   --cr8tive-body-font: "Timeless";
@@ -59,13 +59,13 @@ h6 {
   font-family: "Voyage";
 }
 
+h1 {
+  border-bottom: 1px solid var(--cr8tive-border);
+}
+
 a {
   text-decoration: none;
   color: var(--cr8tive-txt-dark);
-}
-
-.app-inner {
-  margin-top: 10rem;
 }
 
 .bg-beige {
@@ -136,73 +136,11 @@ a {
   transform: scale(1.1);
 }
 
-.txt-orange {
-  color: rgb(248, 121, 21);
-}
-
-.blob {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.sparkle-img {
-  width: 2rem;
-}
-
-.rotating {
-  animation: rotation 12s linear infinite;
-}
-
 .btn-hover:hover {
   background-color: var(--cr8tive-bg);
   box-shadow: 0px 0px 20px var(--cr8tive-accent);
 }
 
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-blob {
-  0% {
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  }
-  50% {
-    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-  }
-  100% {
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  }
-}
-
-@keyframes animate-blob-2 {
-  0% {
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  }
-  40% {
-    border-radius: 40% 60% 70% 30% / 50% 70% 30% 60%;
-  }
-  80% {
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  }
-  100% {
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  }
-}
-
-@media screen and (max-width: 567px) {
-  body {
-    overflow: scroll;
-  }
-}
-
-@media screen and (max-height: 800px) {
-  .app-inner {
-    margin-top: 8rem;
-  }
+.hair-img {
+  border-radius: 10px;
 }

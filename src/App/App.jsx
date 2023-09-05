@@ -25,13 +25,15 @@ export default function App() {
     <div className="App bg-beige">
       <Nav />
 
-      <Routes location={location} key={location.pathname}>
-        <Route path="/" index element={<Home />} />
-        <Route path="/services" element={<div className="app-inner"><Services /></div>} />
-        <Route path="/work" element={<div className="app-inner"><Work /></div>} />
-        <Route path="/team" element={<div className="app-inner"><Team /></div>} />
-        <Route path="/contact" element={<div className="app-inner"><Contact /></div>} />
-      </Routes>
+      <div className="vh-100 d-flex align-items-center justify-content-center">
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" index element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
 
       <Footer />
     </div>
