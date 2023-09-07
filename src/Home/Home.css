@@ -3,7 +3,9 @@
 }
 
 .hero-sub {
-  letter-spacing: 3px;
+  font-size: 1rem;
+  letter-spacing: 5px;
+  padding-top: 1rem;
 }
 
 @media screen and (max-width: 850px) {
@@ -35,8 +37,14 @@
     font-size: 3rem;
   }
 
+  .hero-sub {
+    font-size: .75rem;
+    letter-spacing: 3px;
+    padding-top: 0;
+  }
+
   .home-inner {
-    margin-top: 18rem;
+    margin-top: 16rem;
   }
 }
 

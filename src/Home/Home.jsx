@@ -12,7 +12,7 @@ export default function Home() {
             <br />
             self-care.
           </h2>
-          <p className="hero-sub mb-0 text-uppercase opacity-50 fs-6 mt-4">
+          <p className="hero-sub mb-0 text-uppercase opacity-50">
             Cr<span className="fw-bold">8</span>tive Elements
           </p>
         </div>
