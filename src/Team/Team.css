@@ -35,19 +35,33 @@
     display: none;
   }
 
+  .team-inner {
+    margin-top: 1.5rem;
+  }
+
+  .team-inner h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0 !important;
+  }
+
+  .team-inner span {
+    font-size: .75rem;
+  }
+
   .Team h1 {
     width: 60% !important;
     font-size: 3rem;
   }
 
   .Team p {
-    width: 85% !important;
-    font-size: 0.75rem !important;
-    margin-top: 2rem !important;
+    width: 90% !important;
+    font-size: 0.7rem !important;
+    margin-top: 1.5rem !important;
+    line-height: 1.2;
   }
 }
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
   .Team h1 {
     font-size: 2.5rem;
   }
@@ -55,13 +69,13 @@
   .Team p {
     width: 82% !important;
     margin-top: 10rem !important;
-    line-height: 1.05;
+    line-height: 1;
   }
-}
+} */
 
-@media (min-height: 700px) and (max-height: 855px) and (orientation: portrait) {
+/* @media (min-height: 700px) and (max-height: 855px) and (orientation: portrait) {
   .Team p {
-    margin-top: 12rem !important;
+    margin-top: 0rem !important;
     line-height: 1.25;
   }
-}
+} */

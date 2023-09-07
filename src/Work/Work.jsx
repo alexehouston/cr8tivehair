@@ -76,7 +76,7 @@ export default function Work() {
           />
         </Carousel.Item>
       </Carousel>
-        <Carousel fade className="mt-5 animate__animated animate__fadeInUp animate__slow animate__delay-2s">
+        <Carousel fade className="mt-4 animate__animated animate__fadeInUp animate__slow animate__delay-2s">
           <Carousel.Item>
             <img
               className="carousel-img"

@@ -5,7 +5,9 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <div className="Contact text-center d-flex justify-content-around align-items-center col-lg-8 mx-auto">
-      <img className="hair-img col-lg-3 shadow animate__animated animate__fadeInLeft animate__slower animate__delay-1s" src="/assets/18.jpeg" alt="" />
+      <div className="col-3 hair-img shadow animate__animated animate__fadeInLeft animate__slower animate__delay-2s">
+        <img src="/assets/18.jpeg" alt="" />
+      </div>
       <div className="flex-column">
       <div className="animate__animated animate__fadeInUp animate__slow">
         <h1 className="mx-auto text-xl">Contact</h1>
@@ -48,13 +50,15 @@ export default function Contact() {
       </div>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.53321755014!2d-111.89224532378421!3d33.53951984462872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b0bf4a1ce9c05%3A0x71b1407cd43cb732!2sPalette%20Collective%20Coffee%20%26%20Co-Retail!5e0!3m2!1sen!2sus!4v1693252115047!5m2!1sen!2sus"
-        className="mt-5 shadow animate__animated animate__fadeInUp animate__slower"
+        className="mt-5 shadow animate__animated animate__fadeInUp animate__slower animate__delay-1s"
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
         allowFullScreen
       ></iframe>
       </div>
-      <img className="hair-img col-lg-3 shadow animate__animated animate__fadeInRight animate__slower animate__delay-2s" src="/assets/20.jpeg" alt="" />
+      <div className="col-3 hair-img shadow animate__animated animate__fadeInRight animate__slower animate__delay-2s">
+        <img src="/assets/20.jpeg" alt="" />
+      </div>
     </div>
   );
 }

@@ -31,7 +31,7 @@ export default function Team() {
             <h1 className="text-xl mx-auto">Our Team</h1>
           </div>
           {isSmallScreen && (
-            <div className="d-flex my-5">
+            <div className="team-inner d-flex ">
               <div className="col-5 mx-auto text-center lh-1 animate__animated animate__fadeInDown animate__slow animate__delay-2s">
                 <img className="w-50 mb-3 rounded" src="/assets/elia.jpeg" alt="" />
                 <h3 className="sub-head-font fw-bold">Lily</h3>
