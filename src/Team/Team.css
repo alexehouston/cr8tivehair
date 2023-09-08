@@ -15,18 +15,6 @@
 }
 
 @media screen and (max-width: 850px) {
-  .Team h1 {
-    width: 40% !important;
-  }
-
-  .Team p {
-    width: 76% !important;
-    margin-top: 22rem !important;
-    font-size: 0.9rem !important;
-  }
-}
-
-@media screen and (max-width: 567px) {
   .Team {
     flex-direction: column;
   }
@@ -35,6 +23,22 @@
     display: none;
   }
 
+  .team-inner {
+    margin-top: 2.5rem;
+  }
+
+  .Team h1 {
+    width: 40% !important;
+  }
+
+  .Team p {
+    width: 76% !important;
+    font-size: 0.9rem !important;
+    margin-top: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 567px) {
   .team-inner {
     margin-top: 1.5rem;
   }

@@ -16,7 +16,7 @@ export default function Nav() {
             <span className="sub-logo text-xs">Hair Studio</span>
           </Link>
         </div>
-        <div className="nav-links col-7 col-md-4 col-3 d-flex justify-content-between">
+        <div className="nav-links col-7 col-md-5 col-3 d-flex justify-content-between">
           <Link className="underline-animation" to="/services">
             Services
           </Link>

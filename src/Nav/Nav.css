@@ -23,7 +23,11 @@
   transform: translateX(15px);
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 567px) {
+  .intake-form-btn span {
+    font-size: 1.1rem !important;
+  }
+
   .nav-links {
     margin-top: -2.75rem;
     font-size: 1rem;
@@ -33,12 +37,6 @@
     position: absolute;
     bottom: 18%;
     right: 5%;
-  }
-}
-
-@media screen and (max-width: 567px) {
-  .intake-form-btn span {
-    font-size: 1.1rem !important;
   }
 }
 

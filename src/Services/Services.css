@@ -9,21 +9,24 @@
   margin-left: -2rem;
 }
 
-@media screen and (max-height: 800px) {
+/* @media screen and (max-height: 800px) {
   .Services h1 {
     font-size: 3rem;
   }
 
   .service-menu {
-    width: 30%;
     line-height: 1.05;
     font-size: 0.8rem;
   }
-}
+} */
 
 @media screen and (max-width: 850px) {
   .Services h1 {
     width: 40% !important;
+  }
+
+  .hair-img {
+    display: none;
   }
 
   .service-menu {
@@ -36,11 +39,6 @@
 @media screen and (max-width: 567px) {
   .Services {
     flex-direction: column;
-    
-  }
-
-  .hair-img {
-    display: none;
   }
 
   .Services h1 {

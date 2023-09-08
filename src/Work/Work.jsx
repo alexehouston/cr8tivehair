@@ -7,7 +7,7 @@ export default function Work() {
 
   useEffect(() => {
     const updateWindowDimensions = () => {
-      setIsSmallScreen(window.innerWidth <= 768);
+      setIsSmallScreen(window.innerWidth <= 850);
     };
 
     window.addEventListener("resize", updateWindowDimensions);
@@ -26,7 +26,7 @@ export default function Work() {
       </div>
       {isSmallScreen ? (
         <>
-        <Carousel fade className="mt-5 animate__animated animate__fadeInUp animate__slow animate__delay-1s">
+        <Carousel fade className="col-12 mt-5 animate__animated animate__fadeInUp animate__slow animate__delay-1s">
         <Carousel.Item>
           <img
             className="carousel-img"

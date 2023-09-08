@@ -6,7 +6,7 @@ export default function Team() {
 
   useEffect(() => {
     const updateWindowDimensions = () => {
-      setIsSmallScreen(window.innerWidth <= 768);
+      setIsSmallScreen(window.innerWidth <= 850);
     };
 
     window.addEventListener("resize", updateWindowDimensions);

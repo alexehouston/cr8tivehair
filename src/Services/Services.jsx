@@ -2,11 +2,11 @@ import "./Services.css";
 
 export default function Services() {
   return (
-    <div className="Services text-center d-flex justify-content-around align-items-center col-lg-8 mx-auto">
-      <div className="col-3 hair-img shadow animate__animated animate__fadeInLeft animate__slower animate__delay-1s">
+    <div className="Services text-center d-flex justify-content-around align-items-center col-12 col-lg-10">
+      <div className="col-12 col-lg-4 hair-img shadow animate__animated animate__fadeInLeft animate__slower animate__delay-1s">
         <img src="/assets/11.jpeg" alt="" />
       </div>
-      <div className="flex-column justify-content-center col-lg-4">
+      <div className="flex-column justify-content-center col-10 col-lg-4">
         <div className="animate__animated animate__fadeInUp animate__slow">
           <h1 className="mx-auto text-xl">Services</h1>
         </div>
@@ -41,7 +41,7 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <div className="col-3 hair-img shadow animate__animated animate__fadeInRight animate__slower animate__delay-1s">
+      <div className="col-12 col-lg-4 hair-img shadow animate__animated animate__fadeInRight animate__slower animate__delay-1s">
         <img src="/assets/12.jpeg" alt="" />
       </div>
     </div>
