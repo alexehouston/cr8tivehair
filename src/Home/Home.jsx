@@ -32,21 +32,21 @@ export default function Home() {
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
-            <div className="carousel-item active" data-bs-interval="3000">
+            <div className="carousel-item active" data-bs-interval="2000">
               <img
                 src={isSmallScreen ? '/assets/home-1-mobile.png' : '/assets/home-1.png'}
                 className="d-block w-100"
                 alt="Cr8tive Elements Hair Studio"
               />
             </div>
-            <div className="carousel-item" data-bs-interval="3000">
+            <div className="carousel-item" data-bs-interval="2000">
               <img
                 src={isSmallScreen ? '/assets/home-2-mobile.png' : '/assets/home-2.png'}
                 className="d-block w-100"
                 alt="Cr8tive Elements Hair Studio"
               />
             </div>
-            <div className="carousel-item" data-bs-interval="3000">
+            <div className="carousel-item" data-bs-interval="2000">
               <img
                 src={isSmallScreen ? '/assets/home-3-mobile.png' : '/assets/home-3.png'}
                 className="d-block w-100"
