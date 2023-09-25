@@ -58,7 +58,7 @@ export default function Nav() {
                 </li>
                 <li className="nav-item py-2">
                   <Link className="underline-animation" to="/services">
-                    Services
+                    Service Menu
                   </Link>
                 </li>
                 <li className="nav-item py-2">

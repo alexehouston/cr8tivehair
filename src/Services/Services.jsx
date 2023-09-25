@@ -8,7 +8,7 @@ export default function Services() {
       </div>
       <div className="flex-column justify-content-center col-10 col-lg-4">
         <div className="animate__animated animate__fadeInUp animate__slow">
-          <h1 className="mx-auto text-xl">Services</h1>
+          <h1 className="mx-auto text-xl">Service Menu</h1>
         </div>
         <div className="service-menu d-flex justify-content-between mx-auto mt-5 animate__animated animate__fadeInUp animate__slower">
           <div className="d-flex flex-column text-start text-uppercase">
