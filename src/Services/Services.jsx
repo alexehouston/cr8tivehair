@@ -11,10 +11,10 @@ export default function Services() {
           <h1 className="mx-auto text-xl">Services</h1>
         </div>
         <div className="service-menu d-flex justify-content-between mx-auto mt-5 animate__animated animate__fadeInUp animate__slower">
-          <div className="d-flex flex-column text-start">
-            <p>Customized Blonding (Highlights/Balayage)</p>
+          <div className="d-flex flex-column text-start text-uppercase">
+            <p>Customized Blonding<br />(Highlights/Balayage)</p>
             <p>Custom All Over Color</p>
-            <p>Grey Coverage (Root Retouch)</p>
+            <p>Grey Coverage<br />(Root Retouch)</p>
             <p>Gloss/Toner</p>
             <p>Brazilian Blowout</p>
             <p>Luxury Blowout</p>
