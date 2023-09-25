@@ -28,7 +28,7 @@ export default function Home() {
           </p>
         </div>
         <div
-          className="carousel slide carousel-fade vw-100 position-absolute start-0 bottom-0 animate__animated animate__fadeIn animate__slower"
+          className="carousel slide carousel-fade vw-100 position-absolute start-0 animate__animated animate__fadeIn animate__slower"
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
