@@ -2,16 +2,9 @@
   border-bottom: 1px solid var(--cr8tive-border);
 }
 
-.logo {
-  letter-spacing: 2px;
-}
-
-.eight {
-  padding-bottom: -1rem;
-}
-
 .sub-logo {
   letter-spacing: 3px;
+  line-height: 1;
 }
 
 .intake-form-btn {
@@ -19,11 +12,27 @@
   cursor: pointer;
 }
 
-.intake-form-btn:hover {
-  transform: translateX(15px);
+.navbar {
+  --bs-navbar-padding-y: 0.25rem !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler:focus, .navbar-toggler:focus-visible {
+  box-shadow: none !important;
+}
+
+.offcanvas {
+  width: 15vw !important;
 }
 
 @media screen and (max-width: 567px) {
+  .offcanvas {
+    width: 50vw !important;
+  }
+
   .intake-form-btn span {
     font-size: 1.1rem !important;
   }
@@ -31,12 +40,6 @@
   .nav-links {
     margin-top: -2.75rem;
     font-size: 1rem;
-  }
-
-  .intake-form-btn-container {
-    position: absolute;
-    bottom: 18%;
-    right: 5%;
   }
 }
 

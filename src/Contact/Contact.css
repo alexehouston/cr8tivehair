@@ -3,15 +3,9 @@
   height: 2.5rem;
 }
 
-.Contact .hair-img {
-  height: 20rem;
-  width: 15rem;
-  overflow: hidden;
-}
-
 .Contact .hair-img img {
   width: 140%;
-  margin-left: -3rem;
+  margin-left: -4rem;
 }
 
 @media screen and (max-height: 800px) {

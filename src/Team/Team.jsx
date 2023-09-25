@@ -24,7 +24,13 @@ export default function Team() {
         <div className="lily col-lg-3 text-center lh-1 animate__animated animate__fadeInDown animate__slow animate__delay-2s">
           <h3 className="sub-head-font fw-bold">Lily</h3>
           <span>Owner / Stylist</span>
-          <img className="w-75 mt-3 rounded" src="/assets/elia.jpeg" alt="" />
+          <div className="hair-img">
+            <img
+              className="mt-3 rounded w-100"
+              src="/assets/lily.jpeg"
+              alt=""
+            />
+          </div>
         </div>
         <div className="flex-column col-lg-4">
           <div className="animate__animated animate__fadeInUp animate__slow">
@@ -33,21 +39,29 @@ export default function Team() {
           {isSmallScreen && (
             <div className="team-inner d-flex">
               <div className="col-5 mx-auto text-center lh-1 animate__animated animate__fadeInDown animate__slow animate__delay-2s">
-                <img className="w-50 mb-3 rounded" src="/assets/elia.jpeg" alt="" />
+                <img
+                  className="w-50 mb-3 rounded"
+                  src="/assets/lily.jpeg"
+                  alt=""
+                />
                 <h3 className="sub-head-font fw-bold">Lily</h3>
                 <span>Owner / Stylist</span>
               </div>
               <div className="col-5 mx-auto text-center lh-1 animate__animated animate__fadeInDown animate__slow animate__delay-2s">
-                <img className="w-50 mb-3 rounded" src="/assets/elia.jpeg" alt="" />
+                <img
+                  className="w-50 mb-3 rounded"
+                  src="/assets/elia.jpeg"
+                  alt=""
+                />
                 <h3 className="sub-head-font fw-bold">Elia</h3>
                 <span>Stylist</span>
               </div>
             </div>
           )}
-          <p className="mx-auto mt-5 fs-6 animate__animated animate__fadeInUp animate__slower">
-            Welcome to Cr8tive Elements Hair Studio, where we&apos;re dedicated
-            to elevating your natural beauty, redefining your style, and
-            providing an indulgent self-care experience.
+          <p className="mx-auto mt-5 animate__animated animate__fadeInUp animate__slower">
+            Welcome to <b>Cr8tive Elements Hair Studio</b>, where we&apos;re
+            dedicated to elevating your natural beauty, redefining your style,
+            and providing an indulgent self-care experience.
             <br />
             <br />
             At Cr8tive Elements, we&apos;re committed to the principles of
@@ -70,8 +84,14 @@ export default function Team() {
           </p>
         </div>
         <div className="elia col-lg-3 text-center lh-1 animate__animated animate__fadeInUp animate__slow animate__delay-1s">
-          <img className="w-75 mb-3" src="/assets/elia.jpeg" alt="" />
-          <h3 className="sub-head-font fw-bold">Elia</h3>
+          <div className="hair-img">
+            <img
+              className="mt-3 rounded w-100"
+              src="/assets/elia.jpeg"
+              alt=""
+            />
+          </div>
+          <h3 className="sub-head-font fw-bold mt-3">Elia</h3>
           <span>Stylist</span>
         </div>
       </div>

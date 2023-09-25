@@ -5,8 +5,8 @@ import Nav from "../Nav/Nav";
 import Services from "../Services/Services";
 import Work from "../Work/Work";
 import Team from "../Team/Team";
+import Policies from "../Policies/Policies";
 import Contact from "../Contact/Contact";
-import Footer from "../Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
 import "animate.css";
@@ -25,17 +25,16 @@ export default function App() {
     <div className="App bg-beige">
       <Nav />
 
-      <div className="vh-100 d-flex align-items-center justify-content-center">
+      <div className="vh-100 d-flex justify-content-center">
         <Routes location={location} key={location.pathname}>
           <Route path="/" index element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/work" element={<Work />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/policies" element={<Policies />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-
-      <Footer />
     </div>
   );
 }

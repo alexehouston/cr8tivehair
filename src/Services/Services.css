@@ -1,24 +1,7 @@
-.Services .hair-img {
-  height: 20rem;
-  width: 15rem;
-  overflow: hidden;
-}
-
 .Services .hair-img img {
   width: 140%;
   margin-left: -2rem;
 }
-
-/* @media screen and (max-height: 800px) {
-  .Services h1 {
-    font-size: 3rem;
-  }
-
-  .service-menu {
-    line-height: 1.05;
-    font-size: 0.8rem;
-  }
-} */
 
 @media screen and (max-width: 850px) {
   .Services h1 {

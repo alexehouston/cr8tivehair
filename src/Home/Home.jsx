@@ -1,26 +1,60 @@
+import { useState, useEffect } from "react";
 import "./Home.css";
 
 export default function Home() {
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  useEffect(() => {
+    const updateWindowDimensions = () => {
+      setIsSmallScreen(window.innerWidth <= 850);
+    };
+
+    window.addEventListener("resize", updateWindowDimensions);
+
+    updateWindowDimensions();
+
+    return () => {
+      window.removeEventListener("resize", updateWindowDimensions);
+    };
+  }, []);
+
   return (
     <div className="Home">
       <div className="home-inner d-flex justify-content-between align-items-center vh-100">
-        <div className="text-start animate__animated animate__fadeInLeft animate__slower">
-          <h2 className="hero">
-            True beauty
-            <br />
-            starts with
-            <br />
-            self-care.
-          </h2>
-          <p className="hero-sub mb-0 text-uppercase opacity-50">
-            Cr<span className="fw-bold">8</span>tive Elements
+        <div className="hero-container text-white text-center text-start animate__animated animate__fadeInUp animate__slower">
+          <h2 className="hero">Cr8tive Elements Hair Studio</h2>
+          <p className="hero-sub mb-0 text-uppercase">
+            True beauty starts with self care.
           </p>
         </div>
-        <img
-          className="pt-5 mt-5 h-100 animate__animated animate__fadeInUp animate__slower"
-          src="/assets/21_transparent.png"
-          alt=""
-        />
+        <div
+          className="carousel slide carousel-fade vw-100 position-absolute start-0 animate__animated animate__fadeIn animate__slower"
+          data-bs-ride="carousel"
+        >
+          <div id="carouselExampleSlidesOnly" className="carousel-inner">
+            <div className="carousel-item active" data-bs-interval="3000">
+              <img
+                src={isSmallScreen ? '/assets/home-1-mobile.png' : '/assets/home-1.png'}
+                className="d-block w-100"
+                alt="Cr8tive Elements Hair Studio"
+              />
+            </div>
+            <div className="carousel-item" data-bs-interval="3000">
+              <img
+                src={isSmallScreen ? '/assets/home-2-mobile.png' : '/assets/home-2.png'}
+                className="d-block w-100"
+                alt="Cr8tive Elements Hair Studio"
+              />
+            </div>
+            <div className="carousel-item" data-bs-interval="3000">
+              <img
+                src={isSmallScreen ? '/assets/home-3-mobile.png' : '/assets/home-3.png'}
+                className="d-block w-100"
+                alt="Cr8tive Elements Hair Studio"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

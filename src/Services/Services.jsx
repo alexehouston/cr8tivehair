@@ -12,30 +12,30 @@ export default function Services() {
         </div>
         <div className="service-menu d-flex justify-content-between mx-auto mt-5 animate__animated animate__fadeInUp animate__slower">
           <div className="d-flex flex-column text-start">
-            <p>Customized Blonding</p>
-            <p>Transformative Highlights / Balayage</p>
-            <p>Silver Strand Transformation</p>
-            <p>Retouch & Rinse</p>
-            <p>Gloss/Toner Revival</p>
+            <p>Customized Blonding (Highlights/Balayage)</p>
+            <p>Custom All Over Color</p>
+            <p>Grey Coverage (Root Retouch)</p>
+            <p>Gloss/Toner</p>
             <p>Brazilian Blowout</p>
             <p>Luxury Blowout</p>
             <p>Women&apos;s Haircut</p>
             <p>Men&apos;s Haircut</p>
             <p>Extension Install</p>
+            <p>Extension Move-Up</p>
             <p>Extension Removal</p>
             <p>Add-On Blowout</p>
           </div>
           <div className="d-flex flex-column text-end fw-bold">
-            <p>$220</p>
             <p>Price Varies</p>
-            <p>$125</p>
+            <p>$175+</p>
             <p>$85</p>
             <p>$50</p>
-            <p>$250 +</p>
+            <p>$250+</p>
             <p>$60</p>
             <p>$80</p>
             <p>$50</p>
             <p>Consultation Required</p>
+            <p>$300+</p>
             <p>$50</p>
             <p>$40</p>
           </div>
