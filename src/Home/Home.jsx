@@ -31,7 +31,7 @@ export default function Home() {
           className="carousel slide carousel-fade vw-100 position-absolute start-0 bottom-0 animate__animated animate__fadeIn animate__slower"
           data-bs-ride="carousel"
         >
-          <div id="carouselExampleSlidesOnly" className="carousel-inner">
+          <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="3000">
               <img
                 src={isSmallScreen ? '/assets/home-1-mobile.png' : '/assets/home-1.png'}
