@@ -29,6 +29,12 @@
   width: 15vw !important;
 }
 
+@media screen and (max-width: 850px) {
+  .offcanvas {
+    width: 40vw !important;
+  }
+}
+
 @media screen and (max-width: 567px) {
   .offcanvas {
     width: 50vw !important;

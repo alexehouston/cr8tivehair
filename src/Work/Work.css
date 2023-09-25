@@ -1,3 +1,13 @@
+.Work .carousel-item img {
+  width: 50% !important;
+}
+
+@media screen and (max-width: 850px) {
+  .Work .carousel-item img {
+    width: 70% !important;
+  }
+}
+
 @media screen and (max-width: 567px) {
   .Work .carousel-item img {
     width: 110% !important;
