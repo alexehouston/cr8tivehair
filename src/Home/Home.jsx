@@ -21,9 +21,9 @@ export default function Home() {
   return (
     <div className="Home">
       <div className="home-inner d-flex justify-content-between align-items-center vh-100">
-        <div className="hero-container text-white text-center text-start animate__animated animate__fadeInUp animate__slower">
-          <h2 className="hero">Cr8tive Elements Hair Studio</h2>
-          <p className="hero-sub mb-0 text-uppercase">
+        <div className="hero-container text-white text-center text-start">
+          <h2 className="hero animate__animated animate__fadeInUp animate__slow">Cr8tive Elements Hair Studio</h2>
+          <p className="hero-sub mb-0 text-uppercase animate__animated animate__fadeIn animate__slower animate__delay-1s">
             True beauty starts with self care.
           </p>
         </div>

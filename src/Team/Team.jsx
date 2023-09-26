@@ -22,7 +22,7 @@ export default function Team() {
     <>
       <div className="Team text-center d-flex justify-content-around align-items-center col-lg-8 mx-auto">
         <div className="lily col-lg-3 text-center lh-1 animate__animated animate__fadeInDown animate__slow animate__delay-2s">
-          <h3 className="sub-head-font fw-bold">Lily</h3>
+          <h3 className="head-font fw-bold">Lily</h3>
           <span>Owner / Stylist</span>
           <div className="hair-img">
             <img
@@ -44,7 +44,7 @@ export default function Team() {
                   src="/assets/lily.jpeg"
                   alt=""
                 />
-                <h3 className="sub-head-font fw-bold">Lily</h3>
+                <h3 className="head-font fw-bold">Lily</h3>
                 <span>Owner / Stylist</span>
               </div>
               <div className="col-5 mx-auto text-center lh-1 animate__animated animate__fadeInDown animate__slow animate__delay-2s">
@@ -53,7 +53,7 @@ export default function Team() {
                   src="/assets/elia.jpeg"
                   alt=""
                 />
-                <h3 className="sub-head-font fw-bold">Elia</h3>
+                <h3 className="head-font fw-bold">Elia</h3>
                 <span>Stylist</span>
               </div>
             </div>
@@ -91,7 +91,7 @@ export default function Team() {
               alt=""
             />
           </div>
-          <h3 className="sub-head-font fw-bold mt-3">Elia</h3>
+          <h3 className="head-font fw-bold mt-3">Elia</h3>
           <span>Stylist</span>
         </div>
       </div>

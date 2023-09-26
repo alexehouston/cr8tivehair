@@ -29,6 +29,10 @@
   width: 15vw !important;
 }
 
+.chevron-icon {
+  padding-bottom: .1rem;
+}
+
 @media screen and (max-width: 850px) {
   .offcanvas {
     width: 40vw !important;
