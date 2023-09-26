@@ -63,7 +63,7 @@ export default function Nav() {
                 </li>
                 <li className="nav-item py-2">
                   <Link className="underline-animation" to="/work">
-                    Work
+                    Portfolio
                   </Link>
                 </li>
                 <li className="nav-item py-2">
@@ -92,7 +92,7 @@ export default function Nav() {
                     <FontAwesomeIcon icon={faInstagram} className="fs-4 pb-4" />
                   </a>
                   <a
-                    href="https://tiktok.com/cr8tivehair/"
+                    href="https://www.tiktok.com/@cr8tivehair"
                     target="_blank"
                     rel="noreferrer"
                   >

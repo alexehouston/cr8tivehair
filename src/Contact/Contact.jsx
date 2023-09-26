@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="Contact text-center d-flex justify-content-around align-items-center col-lg-8 mx-auto">
       <div className="col-3 hair-img shadow animate__animated animate__fadeInLeft animate__slower animate__delay-2s">
-        <img src="/assets/18.jpeg" alt="" />
+        <img src="/assets/3.jpeg" alt="" />
       </div>
       <div className="flex-column">
       <div className="animate__animated animate__fadeInUp animate__slow">
@@ -22,7 +22,7 @@ export default function Contact() {
             <FontAwesomeIcon icon={faInstagram} className="fs-4" />
           </a>
           <a
-            href="https://tiktok.com/cr8tivehair/"
+            href="https://www.tiktok.com/@cr8tivehair"
             target="blank_"
             className="bg-dark-beige btn-hover mb-0 mx-4 bg-beige rounded-pill hover-zoom d-flex justify-content-center align-items-center"
           >
@@ -30,11 +30,11 @@ export default function Contact() {
           </a>
         </div>
         <div>
-          <span className="sub-head-font fs-5">
+          <span className="head-font fs-4">
             Cr8tive Elements Hair Studio
           </span>
           <br />
-          (Palette Collective, Studio 2)
+          (Palette Collective, Suite 22)
           <br />
           <br />
           <a
@@ -57,7 +57,7 @@ export default function Contact() {
       ></iframe>
       </div>
       <div className="col-3 hair-img shadow animate__animated animate__fadeInRight animate__slower animate__delay-2s">
-        <img src="/assets/20.jpeg" alt="" />
+        <img src="/assets/4.jpeg" alt="" />
       </div>
     </div>
   );

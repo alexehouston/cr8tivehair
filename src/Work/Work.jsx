@@ -11,48 +11,48 @@ export default function Work() {
         <Carousel.Item>
           <img
             className="carousel-img"
-            src="/assets/1.jpeg"
-            alt="Cr8tive Elements Hair Studio"
-          />
-          <img
-            className="carousel-img"
-            src="/assets/2.jpeg"
-            alt="Cr8tive Elements Hair Studio"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="carousel-img"
-            src="/assets/3.jpeg"
-            alt="Cr8tive Elements Hair Studio"
-          />
-          <img
-            className="carousel-img"
-            src="/assets/4.jpeg"
-            alt="Cr8tive Elements Hair Studio"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="carousel-img"
             src="/assets/7.jpeg"
             alt="Cr8tive Elements Hair Studio"
           />
           <img
             className="carousel-img"
-            src="/assets/9.jpeg"
+            src="/assets/8.jpeg"
             alt="Cr8tive Elements Hair Studio"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="carousel-img"
-            src="/assets/6.jpeg"
+            src="/assets/9.jpeg"
             alt="Cr8tive Elements Hair Studio"
           />
           <img
             className="carousel-img"
-            src="/assets/20.jpeg"
+            src="/assets/10.jpeg"
+            alt="Cr8tive Elements Hair Studio"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-img"
+            src="/assets/11.jpeg"
+            alt="Cr8tive Elements Hair Studio"
+          />
+          <img
+            className="carousel-img"
+            src="/assets/12.jpeg"
+            alt="Cr8tive Elements Hair Studio"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="carousel-img"
+            src="/assets/13.jpeg"
+            alt="Cr8tive Elements Hair Studio"
+          />
+          <img
+            className="carousel-img"
+            src="/assets/14.jpeg"
             alt="Cr8tive Elements Hair Studio"
           />
         </Carousel.Item>

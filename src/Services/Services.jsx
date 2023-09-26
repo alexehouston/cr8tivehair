@@ -4,7 +4,7 @@ export default function Services() {
   return (
     <div className="Services text-center d-flex justify-content-around align-items-center col-12 col-lg-10">
       <div className="col-12 col-lg-4 hair-img shadow animate__animated animate__fadeInLeft animate__slower animate__delay-1s">
-        <img src="/assets/11.jpeg" alt="" />
+        <img src="/assets/5.jpeg" alt="" />
       </div>
       <div className="flex-column justify-content-center col-10 col-lg-4">
         <div className="animate__animated animate__fadeInUp animate__slow">
@@ -42,7 +42,7 @@ export default function Services() {
         </div>
       </div>
       <div className="col-12 col-lg-4 hair-img shadow animate__animated animate__fadeInRight animate__slower animate__delay-1s">
-        <img src="/assets/12.jpeg" alt="" />
+        <img src="/assets/6.jpeg" alt="" />
       </div>
     </div>
   );

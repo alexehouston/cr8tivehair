@@ -8,7 +8,7 @@ export default function Policies() {
       </div>
       <div className="d-flex align-items-center justify-content-between">
         <div className="hair-img animate__animated animate__fadeInDown animate__slow animate__delay-2s">
-          <img src="/assets/21.jpeg" alt="" />
+          <img src="/assets/1.jpeg" alt="" />
         </div>
         <div className="col-lg-4 d-flex flex-column align-items-center animate__animated animate__fadeInUp animate__slower">
         <div className="policies-inner text-center p-2">
@@ -41,14 +41,14 @@ export default function Policies() {
           </p>
           <h4 className="text-uppercase">New Guest Deposits</h4>
           <p>
-            A $100 deposit is required upon booking an appointment time for all
+            A deposit is required upon booking an appointment time for all
             new guests and those that haven&apos;t had an appointment within 12+
             months. The deposit will be credited to the guest&apos;s account at
             the time of service.
           </p>
           <h4 className="text-uppercase">Refunds and Color Adjustments</h4>
           <p>
-            Parlour One services are non-refundable, however, there are
+            Cr8tive Elements services are non-refundable, however, there are
             circumstances where an adjustment may need to be made. At Parlour
             One Salon, guest satisfaction is our top priority. If a guest is
             unsatisfied with their service, we are happy to schedule a
@@ -71,7 +71,7 @@ export default function Policies() {
         <div className="bg-dark-beige head-font rounded-pill text-center mt-4 fs-6 w-25 pt-1">Scroll Down</div>
         </div>
         <div className="hair-img animate__animated animate__fadeInDown animate__slow animate__delay-1s">
-          <img src="/assets/17.jpeg" alt="" />
+          <img src="/assets/2.jpeg" alt="" />
         </div>
       </div>
     </div>

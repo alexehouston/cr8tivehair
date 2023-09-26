@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 567px) {
   .Home .carousel-item img {
-    width: 120% !important;
+    width: 125% !important;
     margin-left: -5rem;
   }
 
