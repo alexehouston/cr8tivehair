@@ -14,3 +14,13 @@
     margin-left: -1rem;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .Work .carousel-item img {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .Work .carousel {
+    margin: 0 !important;
+  }
+}
