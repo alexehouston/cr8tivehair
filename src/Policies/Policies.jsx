@@ -49,8 +49,8 @@ export default function Policies() {
           <h4 className="text-uppercase">Refunds and Color Adjustments</h4>
           <p>
             Cr8tive Elements services are non-refundable, however, there are
-            circumstances where an adjustment may need to be made. At Parlour
-            One Salon, guest satisfaction is our top priority. If a guest is
+            circumstances where an adjustment may need to be made. At Cr8tive
+            Elements, guest satisfaction is our top priority. If a guest is
             unsatisfied with their service, we are happy to schedule a
             complimentary adjustment appointment. Please contact the salon
             within 72 hours of the service date if there are any issues.
